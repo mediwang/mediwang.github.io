@@ -113,6 +113,10 @@ h1, h2, h3 { font-family: var(--round); font-weight: 600; line-height: 1.2; marg
 .home .hero .top { --line: rgba(255, 232, 212, 0.3); --ink: #FFE8D4; --bg: #15142A; }
 .hero-body { padding: clamp(3rem, 9vw, 6.5rem) 0 clamp(9rem, 22vw, 15rem); max-width: 34rem; }
 .hero h1 { font-size: clamp(2.6rem, 8vw, 4.75rem); letter-spacing: -0.01em; }
+.hero-icon {
+  display: block; width: clamp(4.5rem, 12vw, 6rem); height: clamp(4.5rem, 12vw, 6rem);
+  border-radius: 22%; margin-bottom: 1.25rem; box-shadow: 0 0.75rem 2rem rgba(0, 0, 0, 0.35);
+}
 .hero .slogan {
   font-family: var(--round); font-weight: 600;
   font-size: clamp(1.35rem, 3.6vw, 2rem); margin: 0.4rem 0 1.1rem;
